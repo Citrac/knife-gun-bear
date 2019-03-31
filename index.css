@@ -1,0 +1,90 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Lobster, cursive;
+    color:white;
+}
+body {
+    background-color: #4A83B5;
+    font-size:100%;
+}
+
+header {
+    background-color: #F1F3F4;
+    padding: 1em;
+}
+
+    header > h1 {
+        text-align: center;
+        color: #4A83B5;
+        font-size:2.5em;
+    }
+#score-board{
+    text-align:center;
+    border: 0.2em solid white;
+    border-radius:0.5em;
+    margin:2em auto 0;
+    width:15%;
+    position:relative;
+    font-size:2em;
+}
+
+.badge {
+    padding:0.25em;
+    font-size:0.8em;
+    border-radius:0.4em;
+}
+
+#player-tag {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    background-color: #FFCC00;
+}
+#ai-tag{
+    position:absolute;
+    top:0;
+    right:-1em;
+    background-color:crimson;
+}
+
+#result-message{
+    text-align:center;
+    font-size:5em;
+    font-weight:lighter;
+    margin:.5em auto;
+}
+
+#choice-block{
+    text-align:center;
+}
+
+.choice {
+    border: 1em solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2em;
+    background-color:#9CDCFE;
+    transition-duration: 0.3s;
+}
+
+.choice:hover{
+    background-color: #FFCC00;
+    cursor:pointer;
+}
+
+.green-glow{
+    background-color:lightgreen;
+}
+
+.player-color {
+    color: #FFCC00;
+}
+
+.ai-color{
+    color:crimson;
+}
+

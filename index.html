@@ -1,1 +1,36 @@
-<h1>Hello world!</h1>
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="index.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Knife, Gun, Bear!</title>
+</head>
+<body>
+    <header>
+        <h1>Knife, Gun, Bear!</h1>
+    </header>
+
+    <div id="score-board">
+        <div id="player-tag" class="badge">You</div>
+        <div id="ai-tag" class="badge">A.I.</div>
+        <span id="player-score">0</span>:<span id="ai-score">0</span>
+    </div>
+
+    <h2 id="result-message"><span id="win-choice"></span><span id="result-verb">Make your choice!</span><span id="lose-choice"></span></h2>
+
+    <div id="choice-block">
+        <div id="knife-choice" class="choice">
+            <img src="images/knife.png" alt="rock" />
+        </div>
+        <div id="gun-choice" class="choice">
+            <img src="images/gun.png" alt="scissors" />
+        </div>
+        <div id="bear-choice" class="choice">
+            <img src="images/bear.png" alt="paper" />
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
